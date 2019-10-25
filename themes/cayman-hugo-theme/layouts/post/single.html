@@ -17,5 +17,6 @@
     </div>
   {{ end }}
   {{ .Content }}
+  {{ partial "disqus.html" . }}
   {{ partial "gitalk.html" . }}
 {{ end }}
