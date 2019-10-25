@@ -72,5 +72,5 @@ pygmentsStyle = "pygments"
     weight = 4
   [[menu.nav]]
     name = "Github"
-    url = "https://github.com/"
+    url = "https://github.com/threegeese/Online-Judge"
     weight = 5
