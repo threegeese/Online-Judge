@@ -1,4 +1,4 @@
-baseURL = "https://oj.netlify.com/"
+baseURL = "https://oj.pkachu.com/"
 languageCode = "zh-Hans"
 defaultContentLanguage = "zh-Hans"
 title = "Learn"
@@ -81,14 +81,14 @@ pygmentsStyle = "pygments"
 # gitalk config
 # https://github.com/gitalk/gitalk
 [params.gitalk] 
-  clientID = "4b67c5b836af5fbd3ab3"
-  clientSecret = "1d7a65e531d2a522dda64df57d318144519f2e36"
-  repo = "dsaa"
-  owner = "threegeese"
-  admin= ["threegeese"]
-  id= "location.pathname"
-  labels= "gitalk"
+  clientID = '59bb694f77474bbdddd0'
+  clientSecret = '52ec4d1f65ce7ebed307100e000894710b8fce98'
+  repo = 'dsaa'
+  owner = 'threegeese'
+  admin= ['threegeese']
+  id= 'location.pathname'
+  labels= 'gitalk'
   perPage= 15
-  pagerDirection= "last"
+  pagerDirection= 'last'
   createIssueManually= false
   distractionFreeMode= false
