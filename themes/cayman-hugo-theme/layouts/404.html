@@ -1,9 +1,13 @@
-<div style="text-align: center; margin: 100px auto;">
-  <p>
-    <span style="color: #8360c3; font-size: 20px;">404 | </span>
-    <span>Page not found!</span>
-  </p>
-  <p>
-    <a href="/" style="color: #8360c3;">Go Home</a>
-  <p>
-</div>
+{{ define "main"}}
+  <main id="main">
+    <div style="text-align: center; margin: 50px auto;">
+      <p>
+        <span style="color: #8360c3; font-size: 20px;">404 | </span>
+        <span>Page not found!</span>
+      </p>
+      <p>
+        <a href="{{ "/" | relURL }}" style="color: #8360c3; text-decoration: underline;">Go Home</a>
+      <p>
+    </div>
+  </main>
+{{ end }}

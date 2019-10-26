@@ -356,3 +356,14 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+.diy-tag-a > span {
+  background: #eff;
+  display: inline-block;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+.diy-tag-a > span > a {
+  text-decoration: underline;
+}

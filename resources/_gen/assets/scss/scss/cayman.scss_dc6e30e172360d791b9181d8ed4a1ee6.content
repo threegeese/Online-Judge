@@ -234,3 +234,12 @@ a {
 
 .site-footer-credits {
   color: #819198; }
+
+.diy-tag-a > span {
+  background: #eff;
+  display: inline-block;
+  border-radius: 4px;
+  margin-right: 4px; }
+
+.diy-tag-a > span > a {
+  text-decoration: underline; }
