@@ -81,8 +81,8 @@ pygmentsStyle = "pygments"
 # gitalk config
 # https://github.com/gitalk/gitalk
 [params.gitalk] 
-  clientID = "17557de3c4980d462ce6"
-  clientSecret = "84f881bb36d738e3e0ccc1394d332d0aef2e0593"
+  clientID = "4b67c5b836af5fbd3ab3"
+  clientSecret = "1d7a65e531d2a522dda64df57d318144519f2e36"
   repo = "dsaa"
   owner = "threegeese"
   admin= ['threegeese']
