@@ -1,4 +1,4 @@
-baseURL = "https://oj.netlify.com/"
+baseURL = "https://oj.netlify.com"
 languageCode = "zh-Hans"
 defaultContentLanguage = "zh-Hans"
 title = "Learn"
@@ -85,7 +85,7 @@ pygmentsStyle = "pygments"
   clientSecret = "1d7a65e531d2a522dda64df57d318144519f2e36"
   repo = "dsaa"
   owner = "threegeese"
-  admin= ['threegeese']
+  admin= ["threegeese"]
   id= "location.pathname"
   labels= "gitalk"
   perPage= 15
