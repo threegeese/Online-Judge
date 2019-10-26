@@ -1,4 +1,4 @@
-baseURL = "https://threegeese.github.io/dsaa"
+baseURL = "https://oj.netlify.com"
 languageCode = "zh-Hans"
 defaultContentLanguage = "zh-Hans"
 title = "Learn"
