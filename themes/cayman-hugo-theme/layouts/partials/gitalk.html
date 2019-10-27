@@ -14,8 +14,8 @@
     });
     (function () {
       if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-          document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
-          return
+        document.getElementById('gitalk-container').innerHTML = '<p style="text-align: center; color: rgba(243, 11, 30, .5);">⚠️ Gitalk comments not available by default when the website is previewed locally.</p>';
+        return
       }
       gitalk.render('gitalk-container')
     })()

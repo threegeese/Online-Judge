@@ -331,9 +331,9 @@ a {
 }
 
 .site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px $hr-border-color;
+  padding-top: 1rem;
+  margin-top: 4rem;
+  border-top: solid 2px #efe;
 
   @include large {
     font-size: 1rem;
