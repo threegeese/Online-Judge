@@ -7,10 +7,10 @@
       {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
       {{ .PublishDate.Format $dateFormat }}
     </span>
-    |
     {{ $tags := slice }}
     {{ with .Params.tags }}
       <span class="diy-tag-a">
+        |
         {{ range . }}
           {{ $href := print ("tags/" | absLangURL) (. | urlize) "/" }}
           {{ $element := printf "<span><a href=\"%s\">%s</a></span>" $href . }}
