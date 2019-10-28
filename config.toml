@@ -48,7 +48,7 @@ pygmentsStyle = "pygments"
   blockquote_text_color = "#819198"
 
   # Code colors
-  code_background_color = "#f3f6fa"
+  code_background_color = "#f6f4ff"
   code_text_color = "#567482"
 
   # Border colors

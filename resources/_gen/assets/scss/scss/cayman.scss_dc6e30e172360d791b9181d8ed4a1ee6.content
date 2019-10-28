@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box; }
 
@@ -123,7 +124,7 @@ a {
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9em;
     color: #567482;
-    background-color: #f3f6fa;
+    background-color: #f6f4ff;
     border-radius: 0.3rem; }
   .main-content pre {
     padding: 0.8rem;
@@ -132,7 +133,7 @@ a {
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #567482;
     word-wrap: normal;
-    background-color: #f3f6fa;
+    background-color: #f6f4ff;
     border: solid 1px #dce6f0;
     border-radius: 0.3rem; }
     .main-content pre > code {
@@ -243,3 +244,33 @@ a {
 
 .diy-tag-a > span > a {
   text-decoration: underline; }
+
+.diy-info, .diy-warning, .diy-danger {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 4px; }
+
+.diy-info {
+  border: 1px solid #c2d2b5;
+  background: #edf9e8; }
+  .diy-info::before {
+    content: "ℹ️"; }
+
+.diy-warning {
+  border: 1px solid #e0d1b1;
+  background: #fffbe6; }
+  .diy-warning::before {
+    content: "⚠️"; }
+
+.diy-danger {
+  border: 1px solid #deb8be;
+  background: #fff3f3; }
+  .diy-danger::before {
+    content: "🚒"; }
+
+div.highlight pre code .hljs-comment {
+  font-style: normal;
+  font-size: 14px; }
+
+div.highlight table > tbody > tr > td:nth-child(2) {
+  width: 100%; }
