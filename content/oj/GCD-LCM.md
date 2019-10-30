@@ -2,7 +2,6 @@
 title: "最大公因数、最小公倍数 - C"
 date: 2019-10-29T20:17:20+08:00
 tags: [Online Judge, Algorithms, Basic]
-draft: true
 ---
 
 <div class="diy-info">
