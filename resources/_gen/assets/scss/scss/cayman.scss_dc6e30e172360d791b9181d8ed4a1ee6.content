@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box; }
 
@@ -253,20 +252,14 @@ a {
 .diy-info {
   border: 1px solid #c2d2b5;
   background: #edf9e8; }
-  .diy-info::before {
-    content: "ℹ️"; }
 
 .diy-warning {
   border: 1px solid #e0d1b1;
   background: #fffbe6; }
-  .diy-warning::before {
-    content: "⚠️"; }
 
 .diy-danger {
   border: 1px solid #deb8be;
   background: #fff3f3; }
-  .diy-danger::before {
-    content: "🚒"; }
 
 div.highlight pre code .hljs-comment {
   font-style: normal;
