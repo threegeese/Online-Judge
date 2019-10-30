@@ -24,7 +24,7 @@ pygmentsStyle = "pygments"
   dateFormat = "2006-01-02"
 
   # Footer text, can be markdown
-  footer = "Talk is cheap. Show me the code."
+  footer = "Talk is cheap, Show me the bug."
 
   # True to open gitalk
   enableGitalk = true
